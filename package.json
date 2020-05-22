@@ -1,0 +1,40 @@
+{
+  "name": "rxjs-operators",
+  "version": "1.0.0",
+  "description": "Exploring RxJS operations by example and validating complex streams with marble testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "format": "prettier --write \"**/*.+(ts|json|md)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spyros-uk/rxjs-operators.git"
+  },
+  "keywords": [
+    "rxjs",
+    "rxjs-operators",
+    "marble-testing"
+  ],
+  "author": {
+    "name": "Spyros Papaioannou",
+    "website": "https://www.spyros.uk",
+    "email": "dev@spyros.uk"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spyros-uk/rxjs-operators/issues"
+  },
+  "homepage": "https://github.com/spyros-uk/rxjs-operators#readme",
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "jest-marbles": "^2.5.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  }
+}
